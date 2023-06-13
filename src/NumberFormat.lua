@@ -65,10 +65,10 @@ local function format_pattern(self, start, value, pattern, negt, compact, source
 				-- Not sure how currency spacing works, apologies but I'm going to assume, currency match is "[:^S:]" and surrounding match is "[:digit:]"
 				-- If anyone can tell me how the pattern works, please tell me.
 				if (pattern[i + 1] == 0) and symbol:match("%a$") then
-					symbol = symbol .. (self.currencySpacing and self.currencySpacing.afterCurrency.insertBetween or " ");
+					symbol = symbol .. (self.currencySpacing and self.currencySpacing.afterCurrency.insertBetween or " ");
 				end;
 				if (pattern[i - 1] == 0) and symbol:match("^%a") then
-					symbol = (self.currencySpacing and self.currencySpacing.beforeCurrency.insertBetween or " ") .. symbol;
+					symbol = (self.currencySpacing and self.currencySpacing.beforeCurrency.insertBetween or " ") .. symbol;
 				end;
 				ret = checker.addpart(ret, "currency", symbol, source);
 			end;
