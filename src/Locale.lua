@@ -1,3 +1,5 @@
+--!nocheck
+
 local LocalizationSvc = game:GetService("LocalizationService")
 local localedata = require(script.Parent:WaitForChild("_localedata"))
 local intl_proxy = setmetatable({}, { __mode = "k" })

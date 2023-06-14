@@ -1,3 +1,5 @@
+--!nocheck
+
 local private = {}
 local modules = {}
 

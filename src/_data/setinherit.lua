@@ -1,3 +1,5 @@
+--!nocheck
+
 --[=[
 	0: No inherit
 	1: Inherit merge

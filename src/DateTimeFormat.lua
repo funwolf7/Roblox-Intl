@@ -1,3 +1,5 @@
+--!nocheck
+
 local localedata = require(script.Parent:WaitForChild("_localedata"))
 local checker = require(script.Parent:WaitForChild("_checker"))
 local intl_proxy = setmetatable({}, checker.weaktable)

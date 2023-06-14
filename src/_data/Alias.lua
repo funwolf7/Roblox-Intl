@@ -1,3 +1,5 @@
+--!nocheck
+
 local proxy = setmetatable({}, { __mode = "k" })
 local hashes = setmetatable({}, { __mode = "kv" })
 

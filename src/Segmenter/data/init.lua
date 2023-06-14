@@ -1,3 +1,5 @@
+--!nocheck
+
 local function r(t, name)
 	return require(script:WaitForChild(t):WaitForChild(name))
 end

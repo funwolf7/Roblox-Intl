@@ -1,3 +1,5 @@
+--!nocheck
+
 local PluralRules = require(script.Parent:WaitForChild("PluralRules"))
 local NumberFormat = require(script.Parent:WaitForChild("NumberFormat"))
 local checker = require(script.Parent:WaitForChild("_checker"))

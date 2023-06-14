@@ -1,3 +1,5 @@
+--!nocheck
+
 local _data = script.Parent:WaitForChild("_data")
 local supplemental = require(_data:WaitForChild("supplemental"))
 local Alias = require(_data:WaitForChild("Alias"))

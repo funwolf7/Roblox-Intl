@@ -1,3 +1,5 @@
+--!nocheck
+
 local Locale = require(script.Parent:WaitForChild("Locale"))
 local localedata = require(script.Parent:WaitForChild("_localedata"))
 local c = {}

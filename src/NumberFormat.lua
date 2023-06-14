@@ -1,3 +1,5 @@
+--!nocheck
+
 local PluralRules = require(script.Parent:WaitForChild("PluralRules"))
 local checker = require(script.Parent:WaitForChild("_checker"))
 local intl_proxy = setmetatable({}, checker.weaktable)

@@ -1,3 +1,5 @@
+--!nocheck
+
 -- https://github.com/tc39/proposal-intl-segmenter
 -- https://unicode.org/reports/tr29/
 
