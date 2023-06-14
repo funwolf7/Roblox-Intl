@@ -1,1 +1,4 @@
+--!nocheck
+--!nolint
+
 setinherit=require(script.Parent.Parent:WaitForChild("setinherit"))return{SentenceBreak={suppressions={standard=setinherit({"aux.","config.","collab.","M.","dim.","imprim.","oct.","syst.","bull.","MM.","doc.","P.O.","hôp.","Mart.","juil.","broch.","adr.","symb.","C.","anc.","voit.","Jr.","graph.","dir.","éd.","fig.","édit.","niv.","quart.","cam.","éval.","anon.","réf.","Comm.","Prof.","févr.","indus.","DC.","équiv.","illustr.","acoust.","nov.","L.","All.","U.S.","S.M.A.R.T.","sept.","avr.","jeu.","dest.","P.-D. G.","ill.","coll.","encycl.","mer.","Desc.","ven.","P.","lun.","Inc.","sam.","D.","append.","Var.","categ.","janv.","S.A.","imm.","U.S.A.","mar.","exempl.","déc.","ann.","U.","synth.","dict.","av. J.-C.","W.","Op.","ap. J.-C.","gouv.","trav. publ."}, 1)}}}

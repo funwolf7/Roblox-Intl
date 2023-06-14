@@ -1,2 +1,5 @@
+--!nocheck
+--!nolint
+
 -- Automatically generated --
 setinherit=require(script.Parent.Parent:WaitForChild("setinherit"))return{localeDisplayNames={languages={ace="acehnés",arp="arapaho",bho="bhojpuri",eu="euskera",grc="griego antiguo",lo="lao",nso="sotho septentrional",pa="punyabí",ss="siswati",sw="suajili",['sw-CD']="suajili del Congo",tn="setswana",wo="wolof",zgh="tamazight marroquí estándar"},territories={BA="Bosnia y Herzegovina",['GB-short']="RU",TA="Tristán de Acuña",UM="Islas menores alejadas de EE. UU."}},dates={calendars={gregorian={dayPeriods={format={abbreviated={am="a. m.",pm="p. m."},wide={am="a. m.",pm="p. m."}},['stand-alone']={abbreviated={am="a. m.",pm="p. m."},wide={am="a. m.",pm="p. m."}}}}},fields={dayperiod={displayName="a. m./p. m."}}},numbers={symbols={latn={decimal=",",group=" "}},formats={},currencies={CRC={symbol="₡"}}}}

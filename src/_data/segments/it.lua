@@ -1,1 +1,4 @@
+--!nocheck
+--!nolint
+
 setinherit=require(script.Parent.Parent:WaitForChild("setinherit"))return{SentenceBreak={suppressions={standard=setinherit({"N.B.","div.","a.C.","fig.","d.p.R.","c.c.p.","Cfr.","vol.","Geom.","O.d.G.","S.p.A.","ver.","N.d.A.","dott.","arch.","d.C.","N.d.T.","rag.","Sig.","Mod.","pag.","dr.","tav.","N.d.E.","DC.","mitt.","Ing.","int.","on.","C.P.","ag.","L.","U.S.","S.M.A.R.T.","p.i.","tab.","Ltd.","Liv.","D.","U.S.A.","sez.","avv.","S.A.R.","all.","p."}, 1)}}}

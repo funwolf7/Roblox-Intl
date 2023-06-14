@@ -1,0 +1,6 @@
+src/_data/casing/*
+src/_data/main/*
+src/_data/segments/*
+src/_data/supplemental.lua
+src/Segmenter/data/dictionaries/*
+src/Segmenter/data/properties/*

@@ -1,2 +1,5 @@
+--!nocheck
+--!nolint
+
 -- Automatically generated --
 setinherit=require(script.Parent.Parent:WaitForChild("setinherit"))return{dates={calendars={generic={dateFormats={short=setinherit({{"G",1,1}," ",{"y",1,1},"-",{"M",2,1},"-",{"d",2,1}}, 0)},dateTimeFormats={availableFormats={yyyyM=setinherit({{"y",1,1},"-",{"M",2,1}," ",{"G",1,1}}, 0),yyyyMd=setinherit({{"y",1,1},"-",{"M",2,1},"-",{"d",2,1}," ",{"G",1,1}}, 0),yyyyMEd=setinherit({{"E",1,1}," ",{"y",1,1},"-",{"M",2,1},"-",{"d",2,1}," ",{"G",1,1}}, 0)}}},gregorian={dateFormats={short=setinherit({{"y",1,1},"-",{"M",2,1},"-",{"d",2,1}}, 0)},dateTimeFormats={availableFormats={yM=setinherit({{"y",1,1},"-",{"M",2,1}}, 0),yMd=setinherit({{"y",1,1},"-",{"M",2,1},"-",{"d",2,1}}, 0),yMEd=setinherit({{"E",1,1},", ",{"y",1,1},"-",{"M",2,1},"-",{"d",2,1}}, 0)}}}}},numbers={symbols={latn={decimal=",",group=" ",exponential="×10^"}},formats={percent={latn={standard=setinherit({postoken={0," ",4},metadata={minimumIntegerDigits=1,maximumIntegerDigits=4,minimumSignificantDigits=0,maximumSignificantDigits=4,integerGroupSize={3,3}}}, 0)}}},currencies={SEK={symbol="kr"}}}}
