@@ -19,19 +19,20 @@ local function negotiate_table(tbl, index, style)
 end
 
 local function checkvalid(code, type)
+	local replacementCode
 	if type == "script" then
-		code = code:match("^%a%a%a%a$") and (code:sub(1, 1):upper() .. code:sub(2):lower())
+		replacementCode = code:match("^%a%a%a%a$") and (code:sub(1, 1):upper() .. code:sub(2):lower())
 	elseif type == "region" then
-		code = (code:match("^%a%a$") or code:match("^%d%d%d$")) and code:upper()
+		replacementCode = (code:match("^%a%a$") or code:match("^%d%d%d$")) and code:upper()
 	elseif type == "variant" then
-		code = (code:match("^%d%w%w%w$") or code:match("^%w%w%w%w%w%w?%w?%w?$")) and code:upper()
+		replacementCode = (code:match("^%d%w%w%w$") or code:match("^%w%w%w%w%w%w?%w?%w?$")) and code:upper()
 	elseif type == "currency" then
-		code = code:match("^%a%a%a$") and code:upper()
+		replacementCode = code:match("^%a%a%a$") and code:upper()
 	end
-	if not code then
+	if not replacementCode then
 		error("'" .. code .. "' is not a valid " .. type, 5)
 	end
-	return code
+	return replacementCode
 end
 
 local function parselangugage(displaynames, pattern, code, style, fallback)
