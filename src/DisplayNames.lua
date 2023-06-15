@@ -75,8 +75,6 @@ local function parselangugage(displaynames, pattern, code, style, fallback)
 			else
 				pattern1 = v
 			end
-		elseif not fallback then
-			return nil
 		end
 	end
 	for _, v in ipairs(variants) do
@@ -87,8 +85,6 @@ local function parselangugage(displaynames, pattern, code, style, fallback)
 			else
 				pattern1 = v
 			end
-		elseif not fallback then
-			return nil
 		end
 	end
 	return pattern1 and pattern.localePattern:gsub("{[01]}", { ["{0}"] = pattern0, ["{1}"] = pattern1 }) or pattern0
